@@ -1,0 +1,33 @@
+<html><head>
+    <link rel="stylesheet" href="style.css">  
+    <title> Ayalasomayajula Family Book</title></head>
+    
+    <body>
+      <h1> Ayalasomayajula Family Book</h1>
+      <hr> <hr>
+      <img id="family_img" src="Anjani.jpg">
+      <h3 id="one">2. My Father (Anjani Kumar)</h3>
+       <button type="button" onclick="family()">Next</button>
+  <hr>
+     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-85417367-1"></script><script>
+     var names=[
+    "2. My Mother (Prasanna Rajya Kalyani)",
+     "3. Me (Sai Akhil)",
+     "4. My Family Name (Ayalasomayajula)"
+     ];
+   var images=[
+     "Kalyani.jpg",
+     "Akhil.jpg",
+     "IMG_20210418_175437.jpg",
+     ];
+   var i=0;
+   function family(){
+     document.getElementById("one").innerHTML=names[i];
+     document.getElementById("family_img").src=images[i];
+     i++;
+     if(i==4){
+       i=0;
+     }}
+    </script>
+    <script async="" src="https://drv.tw/inc/wd.js"></script>
+  </body></html>
